@@ -6,4 +6,4 @@ How to use:
 2. Upload a picture in jpeg/png format with a watermark
 3. Click 'Upload File'
 4. The service will process your image and return back another image where lighter pixels are supposed to show the place of the watermark.
-
+5. The name of the image will be recorded to the database

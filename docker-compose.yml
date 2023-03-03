@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8888"
+  db:
+    image: postgres:latest
+    environment:
+      - POSTRES_USER=zqoxqsij
+      - POSTGRES_PASSWORD=sa8Mrsk9cgK35RlEDKwDrUccVLbRr3nv
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-db:/data/postgres
+
+volumes:
+  postgres-db:
